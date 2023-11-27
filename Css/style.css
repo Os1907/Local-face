@@ -1,0 +1,411 @@
+header{
+    background: rgb(0,0,0);
+    /* background: radial-gradient(circle, rgba(28,28,28,1) 0%, rgba(0,0,0,1) 20%); */
+}
+:root {
+    --maincolor:rgba(236, 154, 82, 1);
+    --white: #ffffff;
+    --main-font: font-family: 'Rubik', sans-serif;
+  }
+.w-logo{
+    width: 12%;
+}
+.nav-color{
+   background-color: rgb(000, 000, 000);
+}
+.bar-icon {
+   color: var(--maincolor) !important;
+    font-size:20px;
+}
+nav ul li a{
+    font-family: var(--main-font) !important;
+    
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: var(--white) !important;
+}
+.list-color{
+    color: #fcb045 !important;
+    font-size: 30px !important;
+}
+h1{
+    color: var(--white);
+    font-size: 63px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200 !important;
+
+}
+header p{
+    font-family: 'Poppins', sans-serif;
+}
+.button-shop{
+    /* color: -webkit-linear-gradient( #fcb045, #d06f35) ,  rgba(252,176,69,1) !important; */
+    /* -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent; */
+    border:#fcb045 1px solid;
+        color: #fcb045;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 20px 12px;
+    font-weight: 700;
+    transition: all 0.5s;
+    font-family: 'Poppins', sans-serif;
+
+}
+.button-shop:hover{
+    margin: 15px 0px;
+    font-size:20px;
+}
+/* SECTION 2 */
+.welcome{
+    padding: 20px;
+    background-image: url(../Images/Welcome\ wallpaper.png) , linear-gradient(rgba(0, 0, 0, 0.227),rgba(255, 255, 255, 0.26)); 
+    background-blend-mode: overlay;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.714) ;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .overlay {
+    background-color: rgba(0, 0, 0, 0.581);
+} */
+.welcome h2{
+    color: var(--maincolor);
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+}
+.welcome p{
+    color: var(--white);
+    font-size: 20px;
+}
+/* VALUE  */
+.Values{
+    background-color: rgba(0, 0, 0, 0.581);
+    background :  linear-gradient( -240deg , rgba(0, 0, 0, 0.227),#36363652); 
+}
+
+.Values h2{
+    color: var(--white);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.Values p{
+    line-height: 2;
+    color: var(--white);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+/* product */
+.product{
+    background-color: rgba(0, 0, 0, 0.581);
+    background :  linear-gradient( 80deg , rgba(0, 0, 0, 0.227),#36363652);
+}
+.container h2{
+/* background: -webkit-linear-gradient( #fcb045, #d06f35) ,  rgba(252,176,69,1) ;
+  -webkit-background-: text ;
+  -webkit-text-fill-color: transparent; */
+  color: #fcb045;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.border-product{
+    border-radius: 40px;
+}
+.product-name .name-pro{
+    color: var(--white);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.product-name .price-name{
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    
+}
+.hover-product{
+    transition: all 0.3s;
+}
+.hover-product:hover{
+    transform: scale(1.06);
+    border-bottom: #fcb045 solid 1px;
+    border-right: #fcb045 solid 1px;
+
+}
+.bg-product-color{
+    background-color: rgba(0, 0, 0, 0.581);
+    background :  linear-gradient( 180deg , rgba(0, 0, 0, 0.032),#36363621);
+}
+.product-name .price-name span{
+    color: var(--maincolor);
+    font-family: 'Bebas Neue', sans-serif;
+font-size: 20px;
+}
+.buy-now{
+    /* background: -webkit-linear-gradient( #fcb045, #d06f35) ,  rgba(252,176,69,1) ;
+    -webkit-background-: text ;
+    -webkit-text-fill-color: transparent; */
+    color: #fcb045;
+
+    border:#fcb045 1px solid;
+        color: var(--white);
+        font-size: 15px;
+        border-radius: 8px;
+        padding: 3px 13px 3px;
+        font-weight: 600;
+        transition: all 0.5s;
+        font-family: 'Poppins', sans-serif;
+}
+.buy-now:hover{
+    font-size:20px;
+    padding: 3px 20px 3px;
+    background-color: #fcb045;
+    color: white; 
+    border:#fcb045 2px solid;
+}
+/* collection */
+.Collections{
+    background-color: rgba(0, 0, 0, 0.581);
+    background :  linear-gradient( -240deg , rgba(0, 0, 0, 0.227),#36363652); 
+}
+.Collections img{
+    width: 200px;
+    height: 450px;
+}
+
+/* sale */
+.sale{
+    background-image: url(../Images/pexels-guillaume-pierre-leroy-11417443\ 2.png);
+    /* background-position: center center; */
+    background-size: cover;
+}
+.sale h3{
+    color: var(--white) !important;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300 !important;
+}
+.sale p{
+    color: var(--white) !important;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400 !important; 
+}
+.button-shops{
+   background-color: #d06f35;
+        color: var(--white);
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 20px 12px;
+    font-weight: 600;
+    transition: all 0.5s;
+    font-family: 'Poppins', sans-serif;
+}
+.button-shops:hover{
+    font-size:20px;
+    padding: 15px 20px 17px;
+    background-color: #d06f35;
+    color: white; 
+}
+/* latest */
+.Latest h4{
+    color: white;
+}
+.Latest p{
+    color: white;
+}
+.Latest a{
+    color: white;
+    border: solid 2px white;
+    padding: 5px 15px ;
+    border-radius: 8px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s;
+    &:hover{
+    padding: 8px 25px ;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    }
+}
+.Latest .border-animated {
+    transition: all 1s;
+}
+.Latest .border-animated:hover{
+    transform: scale(1.05);
+
+    padding: 20px 10px;
+}
+/* footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.581);
+    background :  linear-gradient( 180deg , rgba(0, 0, 0, 0.227),#36363652); 
+}
+footer img{
+    width: 25%;
+}
+footer h5{
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+}
+.font-family-color{
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+}
+.my-btn{
+    /* background: -webkit-linear-gradient( #fcb045, #d06f35) ,  rgba(252,176,69,1) ;
+    -webkit-background-c: text ;
+    -webkit-text-fill-color: transparent; */
+    color: #fcb045;
+    border:#fcb045 1px solid;
+    color: var(--white);   
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 15px !important;
+    border-radius: 6px !important;
+    font-weight: 500;
+    &:hover{
+        border:#fcb045 1px solid;
+        color: #fcb045;
+    }
+}
+footer input::placeholder{
+    color: white !important;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+}
+footer .icon-numbers{
+    font-size: 23px ;
+    color: var(--white);
+    cursor: pointer;
+}
+footer h6{
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+}
+footer ul li{
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);  
+}
+/* media query */
+@media screen and (max-width:768px) {
+    nav .w-logo{
+        width:25% ;
+    }
+    header .order-media{
+        order: 3;
+    }
+    header .order-media-2{
+        order: 1;
+    }
+    header .order-media-2 img{
+        width: 75% !important;
+    }
+    h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    header .order-media p{
+        font-size: 15px !important ;
+    }
+    header .btns{   
+        text-align: center;
+    }
+    .hover-product{
+        width: 45%;
+    }
+    .welcome h2{
+        font-size: 50px;
+    }
+    .welcome p{
+        font-size: 16px;
+        font-weight: 400 !important;
+    }
+    .Values h2{
+        font-size: 50px;
+    }
+    .Values p{
+        font-size: 16px;
+        font-weight: 400 !important;
+    }
+    .product h2{
+            font-size: 50px;
+}
+    .Collections h2{
+        font-size: 50px;
+    }
+    .w-bg{
+        display: flex;
+        justify-content: center;
+    }
+    .Collections img{
+        width: 50% !important;
+        height: auto;
+        align-items: center;
+    }
+}
+@media screen and (max-width:992px) {
+    nav .w-logo{
+        width:25% ;
+    }
+    header .order-media{
+        order: 3;
+    }
+    header .order-media-2{
+        order: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header .order-media-2 img{
+        width: 100% !important;
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    header .order-media p{
+        font-size: 15px !important ;
+        text-align: center;
+    }
+    header .btns{   
+        text-align: center;
+    }
+    
+    .hover-product{
+        width: 45%;
+    }
+    .welcome h2{
+        font-size: 50px;
+    }
+    .welcome p{
+        font-size: 16px;
+        font-weight: 400 !important;
+    }
+    .Values h2{
+        font-size: 50px;
+    }
+    .Values p{
+        font-size: 16px;
+        font-weight: 400 !important;
+    }
+    .product h2{
+        font-size: 50px;
+}
+.Collections h2{
+    font-size: 55px;
+}
+.w-bg{
+    display: flex;
+    justify-content: center;
+}
+.Collections img{
+    width: 100% !important;
+    height: auto;
+    align-items: center;
+}
+}
+
